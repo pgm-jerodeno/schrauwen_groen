@@ -1,0 +1,125 @@
+.usps__list {
+  display: flex;
+  padding: 0;
+}
+
+.usps__list-item {
+  display: flex;
+  list-style: none;
+  margin-right: var(--padding-4);
+  font-size: 0.9rem;
+}
+
+.usps__list-item > .icon-check {
+  margin: var(--padding);
+  transform: translateY(10%);
+}
+
+header .contact {
+  display: flex;
+}
+
+header .contact-mail, header .contact-tel {
+  display: flex;
+  margin-left: var(--padding-4);
+}
+
+header .contact .icon-envelope {
+  margin: var(--padding);
+  transform: translateY(15%);
+}
+
+header .contact .icon-phone {
+  margin: var(--padding);
+  transform: translateY(10%);
+}
+
+header .contact a {
+  color: var(--color-green);
+}
+
+header .contact a:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 1215px) {
+  header {
+    position: relative;
+  }
+  .usps__list {
+    display: none;
+  }
+  header .contact {
+    position: absolute;
+    left: var(--padding);
+    top: var(--padding-2);
+  }
+}
+
+.nav__list {
+  display: flex;
+  padding: 0;
+}
+
+.nav__list-item {
+  list-style: none;
+  margin-left: var(--padding-8);
+  padding: var(--padding-4) 0;
+}
+
+.nav__list-item a {
+  color: var(--color-green);
+  text-decoration: none;
+  font-weight: 700;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.2rem;
+}
+
+.nav__list-item:hover a {
+  color: var(--color-green-200);
+}
+
+.button {
+  color: white !important;
+  margin-top: -1rem;
+}
+
+@media (max-width: 1055px) {
+  .row {
+    flex-direction: column;
+  }
+  .nav__list {
+    margin-top: var(--padding-3);
+    flex-wrap: wrap;
+  }
+  .nav__list-item {
+    border: 1px solid var(--color-green);
+    padding: var(--padding) var(--padding-3);
+    margin: 0;
+    width: 25%;
+    flex-grow: 1;
+    text-align: center;
+  }
+  .nav__list-item a {
+    color: var(--color-green-100) !important;
+    background-color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: 'Adelle Sans CYR', sans-serif;
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+  }
+  .nav__list-item:hover {
+    background-color: var(--color-green-50);
+  }
+  .nav__list-item:hover a {
+    background-color: var(--color-green-50);
+  }
+}
+
+@media (max-width: 580px) {
+  .nav__list-item {
+    width: 50%;
+  }
+}

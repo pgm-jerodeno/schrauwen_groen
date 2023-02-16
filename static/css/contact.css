@@ -1,0 +1,91 @@
+.contact-page__wrapper {
+  background-color: var(--color-green-50);
+  padding-bottom: 9rem;
+}
+
+.contact-page {
+  max-width: 990px;
+  margin: 0 auto;
+}
+
+.contact-page > h2 {
+  margin-top: 0;
+  padding-top: var(--padding-6);
+}
+
+.contact-page > p {
+  width: 52%;
+  margin: var(--padding-10) 0;
+}
+
+.hidden {
+  display: none;
+}
+
+fieldset {
+  display: flex;
+  flex-wrap: wrap;
+  border: none;
+  padding: 0;
+  justify-content: space-between;
+  gap: var(--padding-4);
+}
+
+fieldset .input-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  flex-grow: 1;
+  margin-bottom: var(--padding-8);
+}
+
+fieldset .input-wrapper label {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+fieldset .input-wrapper > label {
+  font-weight: 700;
+  margin-bottom: var(--padding-4);
+}
+
+fieldset .input-wrapper label .mandatory {
+  color: var(--color-orange);
+}
+
+fieldset .input-wrapper input, textarea {
+  border: none;
+  border-bottom: 1px solid var(--color-green);
+  background-color: var(--color-green-50);
+  color: var(--color-green-100);
+}
+
+fieldset label a {
+  font-weight: 700;
+  color: var(--color-green);
+  text-decoration: underline var(--color-orange) 2px;
+}
+
+fieldset label a:hover {
+  text-decoration: none;
+}
+
+button {
+  display: inline-block;
+  background-color: var(--color-orange);
+  padding: var(--padding-2) var(--padding-3);
+  margin: var(--padding-8) 0;
+  color: white;
+  font-weight: 700;
+  border: none;
+}
+
+button:hover {
+  background-color: var(--color-orange-200);
+  cursor: pointer;
+}
+
+@media (max-width: 990px) {
+  fieldset .input-wrapper {
+    width: 100%;
+  }
+}

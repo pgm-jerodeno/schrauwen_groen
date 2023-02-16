@@ -1,0 +1,179 @@
+@font-face {
+  font-family: 'Adelle Sans CYR';
+  src: url('../fonts/AdelleSansCYR-BoldItalic.woff2') format('woff2'),
+      url('../fonts/AdelleSansCYR-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adelle Sans CYR Hv';
+  src: url('../fonts/AdelleSansCYRHv.woff2') format('woff2'),
+      url('../fonts/AdelleSansCYRHv.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adelle Sans CYR Eb';
+  src: url('../fonts/AdelleSansCYREb-Italic.woff2') format('woff2'),
+      url('../fonts/AdelleSansCYREb-Italic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adelle Sans CYR';
+  src: url('../fonts/AdelleSansCYR-Bold.woff2') format('woff2'),
+      url('../fonts/AdelleSansCYR-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adelle Sans CYR Eb';
+  src: url('../fonts/AdelleSansCYREb.woff2') format('woff2'),
+      url('../fonts/AdelleSansCYREb.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adelle Sans CYR Th';
+  src: url('../fonts/AdelleSansCYRTh.woff2') format('woff2'),
+      url('../fonts/AdelleSansCYRTh.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adelle Sans CYR Sb';
+  src: url('../fonts/AdelleSansCYRSb.woff2') format('woff2'),
+      url('../fonts/AdelleSansCYRSb.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adelle Sans CYR Sb';
+  src: url('../fonts/AdelleSansCYRSb-Italic.woff2') format('woff2'),
+      url('../fonts/AdelleSansCYRSb-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adelle Sans CYR Lt';
+  src: url('../fonts/AdelleSansCYRLt-Italic.woff2') format('woff2'),
+      url('../fonts/AdelleSansCYRLt-Italic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adelle Sans CYR';
+  src: url('../fonts/AdelleSansCYR-Italic.woff2') format('woff2'),
+      url('../fonts/AdelleSansCYR-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adelle Sans CYR Hv';
+  src: url('../fonts/AdelleSansCYRHv-Italic.woff2') format('woff2'),
+      url('../fonts/AdelleSansCYRHv-Italic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adelle Sans CYR';
+  src: url('../fonts/AdelleSansCYR.woff2') format('woff2'),
+      url('../fonts/AdelleSansCYR.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adelle Sans CYR Th';
+  src: url('../fonts/AdelleSansCYRTh-Italic.woff2') format('woff2'),
+      url('../fonts/AdelleSansCYRTh-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adelle Sans CYR Lt';
+  src: url('../fonts/AdelleSansCYRLt.woff2') format('woff2'),
+      url('../fonts/AdelleSansCYRLt.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('../fonts/SpaceGrotesk-Light.woff2') format('woff2'),
+      url('../fonts/SpaceGrotesk-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('../fonts/SpaceGrotesk-Bold.woff2') format('woff2'),
+      url('../fonts/SpaceGrotesk-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('../fonts/SpaceGrotesk-SemiBold.woff2') format('woff2'),
+      url('../fonts/SpaceGrotesk-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('../fonts/SpaceGrotesk-Light.woff2') format('woff2'),
+      url('../fonts/SpaceGrotesk-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('../fonts/SpaceGrotesk-Medium.woff2') format('woff2'),
+      url('../fonts/SpaceGrotesk-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('../fonts/SpaceGrotesk-Regular.woff2') format('woff2'),
+      url('../fonts/SpaceGrotesk-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

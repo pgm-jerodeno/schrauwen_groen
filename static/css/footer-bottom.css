@@ -1,0 +1,127 @@
+.footer-bottom {
+  position: relative;
+  background-color: var(--color-green);
+}
+
+.footer-bottom ul {
+  list-style: url("../img/icon_arrow-right-orange.svg");
+  padding: var(--padding-3) var(--padding-2);
+}
+
+.footer-bottom ul li {
+  padding: var(--padding-2);
+}
+
+.footer-bottom a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom .contact-banner {
+  position: relative;
+  top: -9rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--color-green-200);
+  margin-bottom: -5rem;
+}
+
+.footer-bottom .contact-banner__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 50%;
+  padding: var(--padding-10);
+}
+
+.footer-bottom .contact-banner__title {
+  margin-bottom: var(--padding-6);
+  font-size: 1.82rem;
+}
+
+.footer-bottom .contact-banner__content h5 {
+  margin-bottom: var(--padding-2);
+}
+
+.footer-bottom .contact-banner__content a{
+  text-decoration: underline;
+  font-size: 1.47rem;
+}
+
+.footer-bottom .contact-banner__content a:hover{
+  text-decoration: none;
+}
+
+.footer-bottom .contact-banner__picture {
+  margin-right: var(--padding-6);
+  max-width: 45%;
+}
+
+.footer-bottom .contact-banner__picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 990px) {
+  .footer-bottom .contact-banner__picture {
+    display: none;
+  }
+  .footer-bottom .contact-banner__content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 760px) {
+  .footer-bottom .contact-banner h3, .footer-bottom .contact-banner h5, .footer-bottom .contact-banner a {
+    font-size: 1.2rem;
+  }
+}
+
+.footer-bottom .contact .adress {
+  margin: var(--padding-4) 0;
+}
+
+.footer-bottom .contact-mail, footer .contact-tel {
+  display: flex;
+  margin-bottom: var(--padding-4);
+}
+
+.footer-bottom .contact .icon-envelope, footer .contact .icon-phone {
+  margin: var(--padding);
+  transform: translateY(15%);
+}
+
+.footer-bottom .contact .icon-envelope svg, footer .contact .icon-phone svg {
+  fill: var(--color-orange);
+}
+
+.footer-bottom .contact-mail a, footer .contact-tel a {
+  text-decoration: underline;
+}
+
+.footer-bottom .contact-mail a:hover, footer .contact-tel a:hover {
+  text-decoration: none;
+}
+
+.footer-bottom .contact .btw {
+  color: var(--color-green-100);
+}
+
+.footer-bottom .disclaimer {
+  color: var(--color-green-100);
+  font-size: 0.9rem;
+}
+
+.footer-bottom .disclaimer a {
+  color: var(--color-green-100);
+  text-decoration: underline;
+}
+
+.footer-bottom .disclaimer a:hover {
+  text-decoration: none;
+}

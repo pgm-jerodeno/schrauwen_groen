@@ -1,0 +1,33 @@
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.service {
+  width: 50%;
+  padding: var(--padding-4);
+}
+
+.service__picture {
+  overflow: hidden;
+}
+
+.service__picture img {
+  transition: 0.5s ease;
+}
+
+.service__picture img:hover {
+  transform: scale(1.2);
+}
+
+
+@media (max-width: 480px) {
+  .services {
+    flex-direction: column;
+  }
+  .service {
+    width: 100%;
+  }
+}

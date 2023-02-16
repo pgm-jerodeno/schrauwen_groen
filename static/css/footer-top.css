@@ -1,0 +1,38 @@
+.footer-top {
+  background-color: var(--color-green-50);
+  padding-top: var(--padding-4);
+  padding-bottom: 9rem;
+}
+
+.footer-top .way-of-working {
+  width: 50%;
+}
+
+.footer-top .way-of-working p {
+  padding: var(--padding-6) 0;
+}
+
+.footer-top .because__list {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-top .because__list-item {
+  display: flex;
+  font-size: 1.2rem;
+  padding: var(--padding-6) 0;
+  border-bottom: .0625rem solid var(--color-orange);
+}
+
+.footer-top .because__list-item:last-child {
+  border-bottom: none;
+}
+
+.footer-top .because__list-item .icon-list {
+  margin-right: var(--padding-4);
+  transform: translateY(25%);
+}
+
+.footer-top .because__list-item .icon-list img {
+  height: 0.8rem;
+}

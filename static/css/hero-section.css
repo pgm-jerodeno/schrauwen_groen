@@ -1,0 +1,98 @@
+.hero-section {
+  position: relative;
+  background-image: url("../img/hero-section_background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 60vh;
+}
+
+#hero-section__onderhoud {
+  background-image: url("../img/hero-section_onderhoud_background.png");
+}
+
+.hero-section__nav {
+  display: inline-flex;
+  gap: var(--padding-3);
+  background-color: white;
+  padding: var(--padding-2) var(--padding-6);
+  margin-bottom: var(--padding-4);
+}
+
+.hero-section__nav a {
+  color: var(--color-green);
+  text-decoration: none;
+}
+
+.hero-section__nav a:hover {
+  text-decoration: underline;
+}
+
+.hero-section__nav .divider {
+  transform: translateY(35%);
+}
+
+.hero-section__content {
+  background-color: white;
+  max-width: 35rem;
+  padding: var(--padding-4) var(--padding-8);
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+.hero-section__contact {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  background-color: var(--color-green-200);
+  height: 5.4rem;
+}
+
+.hero-section__contact .hero-section__tel-wrapper {
+  background-color: var(--color-green-50);
+  padding: var(--padding-3);
+  width: 22rem;
+  height: 100%;
+}
+
+.hero-section__contact .hero-section__tel-wrapper h5 {
+  color: var(--color-green);
+  margin-bottom: var(--padding);
+}
+
+.hero-section__contact .hero-section__tel-wrapper .hero-section__tel {
+  display: flex;
+}
+
+.hero-section__contact .hero-section__tel-wrapper .hero-section__tel .icon-phone {
+  margin: var(--padding);
+  transform: translateY(10%);
+}
+
+.hero-section__contact .hero-section__tel-wrapper .hero-section__tel a {
+  color: var(--color-green);
+  font-size: 1.2rem;
+}
+
+.hero-section__contact .hero-section__tel-wrapper .hero-section__tel a:hover {
+  text-decoration: none;
+}
+
+.hero-section__contact .hero-section__arrow {
+  height: 100%;
+  width: 30%;
+  position: relative;
+}
+
+.hero-section__contact .hero-section__arrow:hover {
+  background-color: var(--color-green-100);
+}
+
+.hero-section__contact .hero-section__arrow img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}

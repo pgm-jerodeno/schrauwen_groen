@@ -1,0 +1,152 @@
+.references__intro-nav {
+  display: inline-flex;
+  gap: var(--padding-3);
+  padding: var(--padding-4) var(--padding-8);
+}
+
+.references__intro-nav a {
+  color: var(--color-green);
+  text-decoration: none;
+}
+
+.references__intro-nav a:hover {
+  text-decoration: underline;
+}
+
+.references__intro-nav .divider {
+  transform: translateY(35%);
+}
+
+.references__intro-content {
+  width: 55%;
+  padding: var(--padding-4) 0;
+}
+
+.quick-links__list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin-top: var(--padding-4);
+}
+
+.quick-links__list-item {
+  display: flex;
+  align-items: center;
+  background-color: var(--color-green-50);
+  padding: var(--padding-4);
+  margin-right: var(--padding-8);
+}
+
+.quick-links__list-item:last-of-type {
+  margin-right: 0;
+}
+
+.quick-links__list-item h5 {
+  font-size: 1.3rem;
+}
+
+.quick-links__list-item img {
+  margin-right: var(--padding-2);
+  width: 1.5rem;
+}
+
+@media (max-width: 990px) {
+  .references__intro-content {
+    width: 100%;
+  }
+  .quick-links__list-item h5 {
+    font-size: 1.1rem;
+  }
+  .quick-links__list-item img {
+    width: 1.3rem;
+  }
+}
+
+@media (max-width: 760px) {
+  .quick-links__list-item {
+    padding: var(--padding-2);
+    margin-right: var(--padding-4);
+  }
+  .quick-links__list-item h5 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .quick-links__list {
+    flex-direction: column;
+  }
+  .quick-links__list-item{
+    width: 13rem;
+    margin-bottom: var(--padding-2);
+  }
+}
+
+.quick-links__list-item a {
+  text-decoration: none;
+  color: var(--color-green);
+  font-weight: 500;
+}
+
+.b2b {
+  background-color: var(--color-green-50);
+}
+
+.public {
+  margin-bottom: 9rem;
+}
+
+.reference {
+  width: 30%;
+  margin-bottom: var(--padding-10);
+}
+
+.reference__picture {
+  width: 100%;
+  height: 100%;
+}
+
+.reference__picture img {
+  aspect-ratio: 428/550;
+}
+
+.reference__picture figcaption {
+  padding: var(--padding-3) 0;
+  border-bottom: 1px solid var(--color-green);
+}
+
+@media (max-width: 1440px) {
+  .reference {
+    height: 33.75rem;
+  }
+  .reference__picture img {
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 1055px) {
+  .references .row {
+    flex-direction: row;
+    gap: var(--padding-2);
+  }
+  .reference {
+    width: 16.25rem;
+    height: 17.5rem;
+    margin-bottom: var(--padding-14);
+    flex-shrink: 1;
+  }
+  .reference__picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .reference__picture figcaption {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 620px) {
+  .reference {
+    width: 100%;
+  }
+}
